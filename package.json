@@ -1,0 +1,23 @@
+{
+	"name": "/app",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"lint": "biome check .",
+		"lint:fix": "biome check --write .",
+		"test": "bun test",
+		"build": "webpack"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.3.11",
+		"@types/bun": "latest",
+		"compression-webpack-plugin": "^11.1.0",
+		"ts-loader": "^9.5.4",
+		"webpack": "^5.104.1",
+		"webpack-cli": "^6.0.1"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	}
+}
