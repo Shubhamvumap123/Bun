@@ -4,7 +4,7 @@ This is a **Bun** project configured with essential features for modern developm
 
 ## Features
 
-- **Runtime**: [Bun](https://bun.sh) - A fast JavaScript all-in-one toolkit.
+- **Runtime**: [Bun](https://bun.sh) (v1.2.14) - A fast JavaScript all-in-one toolkit.
 - **Linting**: [Biome](https://biomejs.dev) - Fast linting and formatting.
 - **Testing**: [Bun Test](https://bun.sh/docs/test/runner) - Built-in fast test runner.
 - **Bundling**: [Webpack](https://webpack.js.org/) - Configured for TypeScript.
