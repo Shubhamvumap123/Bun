@@ -26,7 +26,7 @@ export default {
 		clean: true,
 	},
 	plugins: [
-		// Gzip compression
+    // Gzip compression configuration
 		new CompressionPlugin({
 			algorithm: "gzip",
 			test: /\.(js|css|html|svg)$/,
